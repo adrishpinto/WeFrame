@@ -23,7 +23,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="sticky top-0 relative z-[50] mb-40">
+    <div className="sticky top-0 relative z-[50] mb-40 sm:mb-0">
       <div className="w-full bg-white h-[27px]">
         <div
           className="text-2xl absolute top-0 left-0 z-[60] block sm:hidden"
