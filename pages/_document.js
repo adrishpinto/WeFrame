@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <meta name="description" content="WeFrame project" />
         <title>WeFrame</title>
         <link
           rel="preload"
