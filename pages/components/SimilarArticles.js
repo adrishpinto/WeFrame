@@ -25,6 +25,7 @@ const SimilarArticles = () => {
       <div className="relative mt-10  overflow-hidden">
         <img
           src="arrow-left.svg"
+          alt="arr"
           onClick={left}
           className="size-[46px] bg-[#5CD2DD] border-[15px] border-[#5CD2DD] absolute z-[1] top-[37%] left-0 cursor-pointer"
         />
@@ -69,7 +70,7 @@ const Item = () => {
         <div className="upper text-[10px] absolute bg-white font-[500] top-4 right-4 w-[100px] h-[18px] flex items-center justify-center">
           Art de la table
         </div>
-        <img src="table.png" className="size-[224px]" />
+        <img src="table.png" className="size-[224px]" alt="table" />
       </div>
       <div className="bg-white flex-col  ">
         <div className="flex justify-between px-1">

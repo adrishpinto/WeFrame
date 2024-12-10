@@ -42,7 +42,7 @@ const Item = () => {
         <div className="upper text-[10px] absolute bg-white font-[500] top-4 right-4 w-[100px] h-[18px] flex items-center justify-center">
           Art de la table
         </div>
-        <img src="table.png" className="size-[224px]" />
+        <img src="table.png" className="size-[224px]" alt="table"/>
       </div>
       <div className="bg-white flex-col w-full ">
         <div className="flex justify-between px-2">
