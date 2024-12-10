@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <title>WeFrame</title>
         <link
           rel="preload"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
