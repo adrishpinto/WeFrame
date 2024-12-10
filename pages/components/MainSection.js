@@ -29,13 +29,18 @@ const MainSection = () => {
                     className={`size-[40px] hover:cursor-pointer opacity-50 ${clicked == item && "opacity-[100]"}`}
                     onClick={() => setClicked(item)}
                     src="table.svg"
+                    alt="table"
                   />
                 </div>
               );
             })}
           </div>
           <div className="">
-            <img src="machine_processed.png" className="sm:size-[552px]"></img>
+            <img
+              src="machine_processed.png"
+              className="sm:size-[552px]"
+              alt="machine"
+            />
           </div>
         </div>
         {/* specs */}
@@ -51,6 +56,7 @@ const MainSection = () => {
                   src="/heart.svg"
                   className="size-[27.64px] "
                   onClick={() => setFav(1)}
+                  alt="heart"
                 />
               ) : (
                 <FaHeart
@@ -67,14 +73,18 @@ const MainSection = () => {
             {/* scale and diameter start*/}
             <div className="flex border-b-[0.5px] pb-[18px] border-[#9C9C9C] border-opacity-40">
               <div className="flex items-center h-[24px] mt-5 ">
-                <img src="/scale.svg" className="size-[24px] " />
+                <img src="/scale.svg" className="size-[24px] " alt="scale" />
                 <div className="flex justify-start ml-[10px]">
                   <div className="text-[16px]">20</div>
                   <div className="text-[10px]">cm</div>
                 </div>
               </div>
               <div className="flex items-center h-[24px] mt-5 ml-4">
-                <img src="/diameter.svg" className="size-[24px] " />
+                <img
+                  src="/diameter.svg"
+                  className="size-[24px] "
+                  alt="diameter"
+                />
                 <div className="flex justify-start ml-[10px]">
                   <div className="text-[16px]">50</div>
                   <div className="text-[10px]">cm</div>

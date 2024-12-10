@@ -36,9 +36,9 @@ const Footer = () => {
         <div className="self-start sm:ml-auto flex-col mx-auto text-center sm:text-right sm:mr-10">
           <h1 className="font-[700]">NOUS SUIVRE</h1>
           <div className="flex gap-[10px]">
-            <img src="twitter.svg" className="size-[42px]" alt="" />
-            <img src="instagram.svg" className="size-[42px]" alt="" />
-            <img src="linkedin.svg" className="size-[42px]" alt="" />
+            <img src="twitter.svg" className="size-[42px]" alt="twitter" />
+            <img src="instagram.svg" className="size-[42px]" alt="insta" />
+            <img src="linkedin.svg" className="size-[42px]" alt="linkedin" />
           </div>
         </div>
       </div>

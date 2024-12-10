@@ -15,7 +15,7 @@ const Delivery = () => {
       {/* Delivey start */}
       <div className="mt-[50px] sm:w-[928px] mx-auto flex flex-col sm:flex-row items-center sm:justify-between sm:space-y-0 space-y-28 ">
         <div className="flex items-center flex-col w-[178px] h-[115px] relative z-[-1] ">
-          <Image src="delivery.svg" alt="delivery" />
+          <img src="delivery.svg" alt="delivery" />
           <p className="cg-font text-[20px] mt-1">Livrais & Reprise</p>
           <p className="text-[#9C9C9C] mt-[8px] text-[14px]">
             Selon vos besoins
@@ -25,7 +25,7 @@ const Delivery = () => {
         </div>
 
         <div className="flex items-center flex-col w-[117px] h-[115px] relative z-[-1] ">
-          <Image src="delivery-2.svg" alt="delivery2" />
+          <img src="delivery-2.svg" alt="delivery2" />
           <p className="cg-font text-[20px] mt-1">Nettoyage</p>
           <p className="text-[#9C9C9C] mt-[8px] text-[14px]">
             Selon vos besoins
@@ -35,7 +35,7 @@ const Delivery = () => {
         </div>
 
         <div className="flex items-center flex-col w-[182px] h-[115px] relative z-[-1]">
-          <Image src="delivery-3.svg" alt="delivery3" />
+          <img src="delivery-3.svg" alt="delivery3" />
           <p className="cg-font text-[20px] mt-1 ">Commande Illimitée</p>
           <p className="text-[#9C9C9C] mt-[8px] text-[14px]">
             Tout est possible
@@ -45,7 +45,7 @@ const Delivery = () => {
         </div>
 
         <div className="flex items-center flex-col  w-[220px] h-[119px] z-[-1]">
-          <Image
+          <img
             src="delivery-4.svg"
             className="h-[54px] w-[62px]"
             alt="delivery4"
@@ -60,7 +60,7 @@ const Delivery = () => {
       {/* Email Start */}
       <div className="mt-[137px] px-5">
         <div className="flex flex-col sm:flex-row">
-          <Image
+          <img
             src="sofa.jpg"
             className="h-[300px] sm:w-[46.2%] rounded-xl"
             alt="sofa"
@@ -90,7 +90,7 @@ const Delivery = () => {
                   <button className="font-[700] w- cg-font text-[18px] text-white uppercase">
                     S’inscrire
                   </button>
-                  <Image
+                  <img
                     src="arrow-right.svg"
                     alt="arr"
                     className="sm:size-[22px] size-[18px]"
