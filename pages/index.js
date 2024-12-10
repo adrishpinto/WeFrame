@@ -4,6 +4,10 @@ import SimilarArticles from "./components/SimilarArticles";
 import Recommended from "./components/Recommended";
 import Layout from "./components/Layout";
 import Delivery from "./components/Delivery";
+
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function Home() {
   return (
     <div className="w-full h-full">
@@ -14,6 +18,7 @@ function Home() {
           <Recommended />
           <Delivery />
         </Layout>
+        <ToastContainer />
       </div>
     </div>
   );

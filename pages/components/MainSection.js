@@ -1,7 +1,10 @@
 import { useState } from "react";
 import { FaHeart } from "react-icons/fa";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const MainSection = () => {
+  const notify = () => toast("Wow so easy!");
   const [clicked, setClicked] = useState(1);
   const [count, setCount] = useState(1);
   const [fav, setFav] = useState(0);
@@ -131,7 +134,10 @@ const MainSection = () => {
                   </div>
                 </div>
                 {/* add item */}
-                <div className="bg-[#5CD2DD] w-[592px] h-[50px] rounded mt-[5px] ml-[8px] flex items-center justify-center font-white cg-font uppercase text-white text-[16px] ">
+                <div
+                  onClick={notify}
+                  className="bg-[#5CD2DD] cursor-pointer w-[592px] h-[50px] rounded mt-[5px] ml-[8px] flex items-center justify-center font-white cg-font uppercase text-white text-[16px] "
+                >
                   {" "}
                   Ajouter au panier
                 </div>
