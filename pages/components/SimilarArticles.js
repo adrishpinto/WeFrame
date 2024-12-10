@@ -44,6 +44,7 @@ const SimilarArticles = () => {
         </div>
         <img
           src="arrow-right.svg"
+          alt="arr"
           onClick={right}
           className="size-[46px]  bg-[#5CD2DD] border-[15px] border-[#5CD2DD] absolute z-[1] top-[37%] right-0 cursor-pointer"
         />
