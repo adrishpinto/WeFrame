@@ -57,14 +57,14 @@ const MainSection = () => {
               {!fav ? (
                 <img
                   src="/heart.svg"
-                  className="size-[27.64px] "
+                  className="size-[27.64px] cursor-pointer"
                   onClick={() => setFav(1)}
                   alt="heart"
                 />
               ) : (
                 <FaHeart
                   onClick={() => setFav(0)}
-                  className="text-2xl mr-[1px] text-red-600"
+                  className="text-2xl mr-[1px] text-red-600 cursor-pointer"
                 />
               )}
             </div>
@@ -135,7 +135,7 @@ const MainSection = () => {
                 </div>
                 {/* add item */}
                 <div
-                  onClick={notify}
+                  onClick={() => toast("Item(s) added")}
                   className="bg-[#5CD2DD] cursor-pointer w-[592px] h-[50px] rounded mt-[5px] ml-[8px] flex items-center justify-center font-white cg-font uppercase text-white text-[16px] "
                 >
                   {" "}

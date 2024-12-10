@@ -18,7 +18,10 @@ function Home() {
           <Recommended />
           <Delivery />
         </Layout>
-        <ToastContainer />
+        <ToastContainer
+          autoClose="1500"
+          progressStyle={{ background: "blue" }}
+        />
       </div>
     </div>
   );

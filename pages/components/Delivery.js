@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 const Delivery = () => {
   return (
     <div className="mt-[83px]  w-full bg-gradient-to-b from-[#ee41970c] to-white ">
@@ -87,7 +89,10 @@ const Delivery = () => {
                   className="sm:w-[515px] h-[58px] pl-[22px] placeholder:text-[#A68A98] placeholder:text-[18px] outline-none border-[1px] border-[#F5E1EB] rounded-md"
                 />
                 <div className="mx-1 sm:mx-0 flex h-[50px] gap-2 sm:h-[60px] bg-[#5CD2DD] items-center justify-center sm:w-[157px] rounded-md">
-                  <button className="font-[700] w- cg-font text-[18px] text-white uppercase">
+                  <button
+                    className="font-[700] w- cg-font text-[18px] text-white uppercase"
+                    onClick={() => toast("Email sent Succesfully")}
+                  >
                     S’inscrire
                   </button>
                   <img
